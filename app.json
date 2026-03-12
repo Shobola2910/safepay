@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SafePay",
+    "slug": "safepay-mobile",
+    "scheme": "safepay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#071126"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.safepay.mobile"
+    },
+    "android": {
+      "package": "com.safepay.mobile"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
